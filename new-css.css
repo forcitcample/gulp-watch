@@ -1,0 +1,117 @@
+
+@media screen and (max-width: 480px) {
+    .email a { width: 100% !important; }
+}
+
+.footer__container .footer__container__upper>ul>li.email>a, .footer__container .footer__container__upper>ul>li.phone>a {
+    padding: 0;
+    width: 9em; width /*for media all*/
+    float: left;
+}
+
+
+	.featured-stories {
+	-webkit-flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	}
+
+/*Please used for safari*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari 5+ ONLY */
+    ::i-block-chrome, .featured-stories {
+     		
+    	/*css properties*/
+    }
+}
+
+
+
+
+
+/***** media start ******/
+@media screen and (max-width: 500px) {
+    .nav-justified img { width: auto;}
+
+}
+
+@media screen and (max-width: 480px) {
+    .email a { width: 100% !important; }
+
+}
+
+
+
+.logo-and-nav {
+
+}
+
+
+/***** media end ******/
+
+
+
+
+ /**** for safari only ****/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    ::i-block-chrome, .logo-and-nav {max-width:1160px;}  /*css for header top*/
+    ::i-block-chrome, .eat-wisconsin-cheese { width: 1000px; max-width: 100%; }  
+
+    /*css for (“When it comes to producing delicious, award-winning)section*/ 
+
+    ::i-block-chrome, .featured-stories__card {
+  float:left;
+  height:100%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  position:relative;
+  width:33.1% !important;
+  z-index:1;
+}
+
+
+  ::i-block-chrome,.featured-stories__card--contrast-left--anchor, .featured-stories__card--contrast-right--anchor {
+  background-color:#013E7F;
+  bottom:0;
+  height:39.2%;
+  position:absolute !important;
+  width:100%; left:0;
+}
+
+
+    /* 5 css for (“A Few Popular Cheeses top) three sections*/ 
+  
+    ::i-block-chrome, .Content .ProductList {display: unset;}
+    ::i-block-chrome, .Content .ProductList > li {  float: left; }
+    .NewsletterSubscription input, .NewsletterSubscription label {
+        height: 30px;
+    }
+
+}
+
+
+/*for all browser*/
+
+    /*css for newsletter section for single page section*/
+
+    .NewsletterSubscription input, .NewsletterSubscription label {
+        height: 30px;
+    }
+
+
+    
+ /*7. css for related product section*/  
+
+.row.Related .showcase-cheese__box {
+    display: inline-block;
+    float: none;
+    margin: 0 5px;
+    width: 22%;
+}
+
+
+/******* css end******/
